@@ -39,7 +39,7 @@ export const App = () => {
 
 
 {/* ---------------Component TransactionHistory----------------- */}
-      <TransactionHistory items={transactions} />
+      {/* <TransactionHistory items={transactions} /> */}
     </div>
   );
 };
