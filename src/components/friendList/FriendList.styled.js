@@ -9,7 +9,7 @@ list-style: none;
   padding: 0;
   flex-direction: column;
   gap: 40px;
-  background: white
+  background: white;
 `
 
 export const Li = styled.li`
