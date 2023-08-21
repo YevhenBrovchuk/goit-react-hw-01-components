@@ -21,25 +21,25 @@ export const App = () => {
       }}
     >
 {/* --------------Component Profile---------------------- */}
-{/* <Profile
+ <Profile
   username={user.username}
   tag={user.tag}
   location={user.location}
   avatar={user.avatar}
   stats={user.stats}
         
-/> */}
+/> 
 
 {/*---------------------Component Statistics----------------*/}
-{/* <Statistics title="Upload stats" stats={data} /> */}
+<Statistics title="Upload stats" stats={data} />
 {/* <Statistics stats={data} />   */}
       
 {/* ---------------------Component FrendList---------------- */}
-      {/* <FriendList items ={friends} /> */}
+      <FriendList items ={friends} />
 
 
 {/* ---------------Component TransactionHistory----------------- */}
-      {/* <TransactionHistory items={transactions} /> */}
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
