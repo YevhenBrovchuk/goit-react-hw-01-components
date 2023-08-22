@@ -1,22 +1,21 @@
 import styled from 'styled-components';
 
-
 export const Table = styled.table`
-background: white;
-table-layout: fixed;
+  background: white;
+  table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   border: 3px solid black;
-`
+`;
 
 export const Tbody = styled.tbody`
-text-align:center;
-`
+  text-align: center;
+`;
 
 export const Thead = styled.thead`
-background: blue
-
-`
+  background: blue;
+`;
 
 export const Th = styled.th`
-color: white`
+  color: white;
+`;
